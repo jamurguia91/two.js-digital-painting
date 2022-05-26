@@ -1,2 +1,3 @@
-<!-- two js minified library  -->
-<!-- https://raw.githubusercontent.com/jonobr1/two.js/dev/build/two.min.js -->
+borrowed the two.js library to accomplish this little project
+github (https://github.com/jonobr1/two.js)
+two.js webpage (https://two.js.org/)
