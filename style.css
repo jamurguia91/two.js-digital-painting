@@ -1,9 +1,9 @@
 /* My custom style */
 
 body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     background-color: #1e1e1e;
-}
-
-h1 {
-    color: maroon;
 }
