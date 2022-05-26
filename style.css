@@ -1,5 +1,6 @@
 /* My custom style */
 
+/* Center to page */
 body {
     display: grid;
     align-items: center;
@@ -7,3 +8,8 @@ body {
     height: 100vh;
     background-color: #1e1e1e;
 }
+
+/* diagnostic styling */
+section {
+    background: maroon;
+  }
