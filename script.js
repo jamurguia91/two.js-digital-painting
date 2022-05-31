@@ -78,7 +78,12 @@ shape6.noStroke();
 // rotate shape. Default is radians
 shape6.rotation = Math.PI * 0.50;
 
-
+//playing with other shape(s), Circle
+let randomShape = two.makeCircle(250,250,100,0);
+// PROPERTY: set fill of shape
+randomShape.fill = "maroon";
+// METHOD: run method to remove stroke
+randomShape.noStroke();
 
 //Note to self, New code to place above
 
