@@ -4,7 +4,7 @@ const container = document.querySelector("section");
 // setting the dimensions for the container
 let params = {
     width: 500,
-    ehight: 500
+    height: 500
 };
 
 // `new` instantiation Two.js
