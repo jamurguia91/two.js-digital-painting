@@ -13,7 +13,7 @@ const two = new Two(params);
 two.appendTo(container);
 
 // shape to be moving
-let shape = two.makeRectangle(250,250,100,100);
+let shape = two.makeRectangle(250,250,450,450);
 
 // PROPERTY: set fill of shape
 shape.fill = "Cornsilk";
@@ -25,16 +25,20 @@ shape.rotation = Math.PI * 0.25;
 
 //New Shape
 // shape to be moving
-let shape2 = two.makeRectangle(250,250,50,50);
+let shape2 = two.makeRectangle(250,250,400,400);
 
 // PROPERTY: set fill of shape
-shape2.fill = "black";
+shape2.fill = "grey";
 // METHOD: run method to remove stroke
 shape2.noStroke();
 
+// rotate shape. Default is radians
+shape2.rotation = Math.PI * 0.25;
+
 // Bind to "Update" function
 two.bind("update", () => {
-  shape.rotation += 0.01;
+  shape.rotation += 0.01,
+  shape2.rotation += 0.01;
 });
 
 // Draw to page
