@@ -12,7 +12,7 @@ const two = new Two(params);
 // append to `container`
 two.appendTo(container);
 
-// shape to be moving
+// 1st square to be moving
 let shape = two.makeRectangle(250,250,450,450);
 
 // PROPERTY: set fill of shape
@@ -23,8 +23,7 @@ shape.noStroke();
 // rotate shape. Default is radians
 shape.rotation = Math.PI * 0.25;
 
-//New Shape
-// shape to be moving
+//2nd square to be moving
 let shape2 = two.makeRectangle(250,250,400,400);
 
 // PROPERTY: set fill of shape
@@ -34,6 +33,10 @@ shape2.noStroke();
 
 // rotate shape. Default is radians
 shape2.rotation = Math.PI * 0.25;
+
+
+
+//Note to self, New code to place above
 
 // Bind to "Update" function
 two.bind("update", () => {
