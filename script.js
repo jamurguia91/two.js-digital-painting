@@ -32,7 +32,18 @@ shape2.fill = "grey";
 shape2.noStroke();
 
 // rotate shape. Default is radians
-shape2.rotation = Math.PI * 0.25;
+shape2.rotation = Math.PI * 0.50;
+
+// 3rd square to be moving
+let shape3 = two.makeRectangle(250,250,350,350);
+
+// PROPERTY: set fill of shape
+shape3.fill = "yellow";
+// METHOD: run method to remove stroke
+shape3.noStroke();
+
+// rotate shape. Default is radians
+shape3.rotation = Math.PI * 0.25;
 
 
 
@@ -41,7 +52,8 @@ shape2.rotation = Math.PI * 0.25;
 // Bind to "Update" function
 two.bind("update", () => {
   shape.rotation += 0.01,
-  shape2.rotation += 0.01;
+  shape2.rotation += 0.01,
+  shape3.rotation += 0.01;
 });
 
 // Draw to page
