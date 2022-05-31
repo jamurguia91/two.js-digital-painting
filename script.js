@@ -45,6 +45,17 @@ shape3.noStroke();
 // rotate shape. Default is radians
 shape3.rotation = Math.PI * 0.25;
 
+//4th square to be moving
+let shape4 = two.makeRectangle(250,250,300,300);
+
+// PROPERTY: set fill of shape
+shape4.fill = "black";
+// METHOD: run method to remove stroke
+shape4.noStroke();
+
+// rotate shape. Default is radians
+shape4.rotation = Math.PI * 0.50;
+
 
 
 //Note to self, New code to place above
@@ -53,7 +64,8 @@ shape3.rotation = Math.PI * 0.25;
 two.bind("update", () => {
   shape.rotation += 0.01,
   shape2.rotation += 0.01,
-  shape3.rotation += 0.01;
+  shape3.rotation += 0.01,
+  shape4.rotation += 0.01;
 });
 
 // Draw to page
