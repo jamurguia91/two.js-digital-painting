@@ -78,12 +78,31 @@ shape6.noStroke();
 // rotate shape. Default is radians
 shape6.rotation = Math.PI * 0.50;
 
-//playing with other shape(s), Circle
-let randomShape = two.makeCircle(250,250,100,0);
+// //playing with other shape(s), Circle
+// let randomShape = two.makeCircle(250,250,100,0);
+// // PROPERTY: set fill of shape
+// randomShape.fill = "maroon";
+// // METHOD: run method to remove stroke
+// randomShape.noStroke();
+
+//7th square to be moving
+let shape7 = two.makeRectangle(250,250,150,150);
+
 // PROPERTY: set fill of shape
-randomShape.fill = "maroon";
+shape7.fill = "yellow";
 // METHOD: run method to remove stroke
-randomShape.noStroke();
+shape7.noStroke();
+
+// rotate shape. Default is radians
+shape7.rotation = Math.PI * 0.25;
+
+// //playing with other shape(s), Circle
+// let randomShape2 = two.makeCircle(250,250,75,0);
+// // PROPERTY: set fill of shape
+// randomShape2.fill = "maroon";
+// // METHOD: run method to remove stroke
+// randomShape2.noStroke();
+
 
 //Note to self, New code to place above
 
@@ -94,7 +113,8 @@ two.bind("update", () => {
   shape3.rotation += 0.01,
   shape4.rotation += 0.01,
   shape5.rotation += 0.01,
-  shape6.rotation += 0.01;
+  shape6.rotation += 0.01,
+  shape7.rotation += 0.01;
 });
 
 // Draw to page
