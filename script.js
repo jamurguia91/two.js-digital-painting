@@ -16,7 +16,7 @@ two.appendTo(container);
 let shape = two.makeRectangle(250,250,450,450);
 
 // PROPERTY: set fill of shape
-shape.fill = "Cornsilk";
+shape.fill = '#1e1e1e';
 // METHOD: run method to remove stroke
 shape.noStroke();
 
@@ -27,7 +27,7 @@ shape.rotation = Math.PI * 0.25;
 let shape2 = two.makeRectangle(250,250,400,400);
 
 // PROPERTY: set fill of shape
-shape2.fill = "grey";
+shape2.fill = "hsl(0, 100%, 25%, 0.45)";
 // METHOD: run method to remove stroke
 shape2.noStroke();
 
@@ -38,7 +38,7 @@ shape2.rotation = Math.PI * 0.50;
 let shape3 = two.makeRectangle(250,250,350,350);
 
 // PROPERTY: set fill of shape
-shape3.fill = "yellow";
+shape3.fill = '#1e1e1e';
 // METHOD: run method to remove stroke
 shape3.noStroke();
 
@@ -49,7 +49,7 @@ shape3.rotation = Math.PI * 0.25;
 let shape4 = two.makeRectangle(250,250,300,300);
 
 // PROPERTY: set fill of shape
-shape4.fill = "black";
+shape4.fill = "hsl(0, 100%, 25%, 0.55)";
 // METHOD: run method to remove stroke
 shape4.noStroke();
 
@@ -60,7 +60,7 @@ shape4.rotation = Math.PI * 0.50;
 let shape5 = two.makeRectangle(250,250,250,250);
 
 // PROPERTY: set fill of shape
-shape5.fill = "blue";
+shape5.fill = "#996600";
 // METHOD: run method to remove stroke
 shape5.noStroke();
 
@@ -71,7 +71,7 @@ shape5.rotation = Math.PI * 0.25;
 let shape6 = two.makeRectangle(250,250,200,200);
 
 // PROPERTY: set fill of shape
-shape6.fill = "grey";
+shape6.fill = "hsl(0, 100%, 25%, 0.75)";
 // METHOD: run method to remove stroke
 shape6.noStroke();
 
@@ -89,7 +89,7 @@ shape6.rotation = Math.PI * 0.50;
 let shape7 = two.makeRectangle(250,250,150,150);
 
 // PROPERTY: set fill of shape
-shape7.fill = "yellow";
+shape7.fill = '#1e1e1e';;
 // METHOD: run method to remove stroke
 shape7.noStroke();
 
@@ -100,7 +100,7 @@ shape7.rotation = Math.PI * 0.25;
 let shape8 = two.makeRectangle(250,250,100,100);
 
 // PROPERTY: set fill of shape
-shape8.fill = "white";
+shape8.fill = "hsl(0, 100%, 25%, 0.85)";
 // METHOD: run method to remove stroke
 shape8.noStroke();
 
@@ -111,7 +111,7 @@ shape8.rotation = Math.PI * 0.50;
 let shape9 = two.makeRectangle(250,250,50,50);
 
 // PROPERTY: set fill of shape
-shape9.fill = "black";
+shape9.fill = '#1e1e1e';
 // METHOD: run method to remove stroke
 shape9.noStroke();
 
@@ -122,7 +122,7 @@ shape9.rotation = Math.PI * 0.25;
 let shape10 = two.makeRectangle(250,250,25,25);
 
 // PROPERTY: set fill of shape
-shape10.fill = "blue";
+shape10.fill = "#996600";
 // METHOD: run method to remove stroke
 shape10.noStroke();
 
@@ -133,7 +133,7 @@ shape8.rotation = Math.PI * 0.50;
 let shape11 = two.makeRectangle(250,250,10,10);
 
 // PROPERTY: set fill of shape
-shape11.fill = "red";
+shape11.fill = "#1e1e1e";
 // METHOD: run method to remove stroke
 shape11.noStroke();
 
