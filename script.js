@@ -89,13 +89,6 @@ shape6.noStroke();
 // rotate shape. Default is radians
 shape6.rotation = Math.PI * 0.50;
 
-// //playing with other shape(s), Circle
-// let randomShape = two.makeCircle(250,250,100,0);
-// // PROPERTY: set fill of shape
-// randomShape.fill = "maroon";
-// // METHOD: run method to remove stroke
-// randomShape.noStroke();
-
 //7th square to be moving
 let shape7 = two.makeRectangle(250,250,150,150);
 
@@ -151,16 +144,6 @@ shape11.noStroke();
 // rotate shape. Default is radians
 shape11.rotation = Math.PI * 0.25;
 
-// //playing with other shape(s), Circle
-// let randomShape2 = two.makeCircle(250,250,75,0);
-// // PROPERTY: set fill of shape
-// randomShape2.fill = "maroon";
-// // METHOD: run method to remove stroke
-// randomShape2.noStroke();
-
-
-
-//Note to self, New code to place above
 
 // Bind to "Update" function
 two.bind("update", () => {
