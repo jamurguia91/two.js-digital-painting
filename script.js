@@ -12,6 +12,17 @@ const two = new Two(params);
 // append to `container`
 two.appendTo(container);
 
+//pre square to be moving
+let preshape = two.makeRectangle(250,250,475,475);
+
+// PROPERTY: set fill of shape
+preshape.fill = "#1e1e1e";
+// METHOD: run method to remove stroke
+preshape.noStroke();
+
+// rotate shape. Default is radians
+preshape.rotation = Math.PI * 0.50;
+
 // 1st square to be moving
 let shape = two.makeRectangle(250,250,450,450);
 
@@ -153,6 +164,7 @@ shape11.rotation = Math.PI * 0.25;
 
 // Bind to "Update" function
 two.bind("update", () => {
+  preshape.rotation += 0.01,
   shape.rotation += 0.01,
   shape2.rotation += 0.01,
   shape3.rotation += 0.01,
